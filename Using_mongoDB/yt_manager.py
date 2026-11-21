@@ -2,7 +2,7 @@ import pymongo
 from bson import ObjectId
 
 # Need to debug the update issue using the id
-client= pymongo.MongoClient("mongodb+srv://yt_manager:Yash1212@cluster1.rg9fwmm.mongodb.net/")
+client= pymongo.MongoClient("Put url here")
 
 # Give name to dataBSE
 db= client["ytmanager"]
